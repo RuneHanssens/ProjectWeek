@@ -1,0 +1,11 @@
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/stylesheet.css"/>
+<header>
+    <nav>
+    <ul>
+        <li><a href = "<c:url value="/index.htm"/>">Home</a></li>
+        <li><a href="<c:url value="/activity.htm"/>">Activities</a></li>
+        <li><a href="<c:url value="/activity/new.htm"/>">Add activity</a></li>
+    </ul>
+    </nav>
+</header>
